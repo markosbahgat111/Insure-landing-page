@@ -1,0 +1,42 @@
+.links_container{
+    width: 100%;
+    h5{
+        color: gray;
+        font-family: 'Karla';
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-block: 20px;
+
+    }
+    ul{
+        list-style: none;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 15px;
+        li{
+            color: hsl(270, 9%, 17%);
+            font-family: 'Karla';
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            
+        }
+        li:hover{
+            text-decoration: underline wavy;
+        }
+    }
+}
+@media screen and (max-width:640px){
+    .links_container{
+        width: 100%;
+        text-align: center;
+        ul{
+            align-items: center;
+        }
+    }
+}
